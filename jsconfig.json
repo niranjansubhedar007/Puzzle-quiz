@@ -1,0 +1,165 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
+
+
+// "use client"
+// import { useState } from 'react';
+// import axios from 'axios';
+
+// const PairForm = () => {
+//     const [formData, setFormData] = useState({
+//         item1: '',
+//         item2: '',
+//         item3: '',
+//         item4: '',
+//         item5: '',
+//         item6: '',
+//         item7: '',
+//         item8: '',
+//         item9: '',
+//         item10: ''
+//     });
+
+//     const handleChange = (e) => {
+//         setFormData({ ...formData, [e.target.name]: e.target.value });
+//     };
+
+//     const handleSubmit = async (e) => {
+//         e.preventDefault();
+//         try {
+//             const response = await axios.post('http://localhost:5000/api/pair', formData);
+//             console.log(response.data);
+//             // Handle success, maybe show a success message or redirect
+//         } catch (error) {
+//             console.error('Error creating pair:', error);
+//             // Handle error, maybe show an error message to the user
+//         }
+//     };
+
+//     return (
+//         <div>
+//             <h1 className="text-2xl mb-4">Pair Management</h1>
+//             <form onSubmit={handleSubmit} className="space-y-4">
+//                 {/* Input fields for item1 through item10 */}
+//                 <div>
+//                     <label htmlFor="item1">Item 1:</label>
+//                     <input
+//                         type="text"
+//                         id="item1"
+//                         name="item1"
+//                         value={formData.item1}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item2">Item 2:</label>
+//                     <input
+//                         type="text"
+//                         id="item2"
+//                         name="item2"
+//                         value={formData.item2}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item3">Item 3:</label>
+//                     <input
+//                         type="text"
+//                         id="item3"
+//                         name="item3"
+//                         value={formData.item3}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item4">Item 4:</label>
+//                     <input
+//                         type="text"
+//                         id="item4"
+//                         name="item4"
+//                         value={formData.item4}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item5">Item 5:</label>
+//                     <input
+//                         type="text"
+//                         id="item5"
+//                         name="item5"
+//                         value={formData.item5}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item6">Item 6:</label>
+//                     <input
+//                         type="text"
+//                         id="item6"
+//                         name="item6"
+//                         value={formData.item6}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item7">Item 7:</label>
+//                     <input
+//                         type="text"
+//                         id="item7"
+//                         name="item7"
+//                         value={formData.item7}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item8">Item 8:</label>
+//                     <input
+//                         type="text"
+//                         id="item8"
+//                         name="item8"
+//                         value={formData.item8}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item9">Item 9:</label>
+//                     <input
+//                         type="text"
+//                         id="item9"
+//                         name="item9"
+//                         value={formData.item9}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <div>
+//                     <label htmlFor="item10">Item 10:</label>
+//                     <input
+//                         type="text"
+//                         id="item10"
+//                         name="item10"
+//                         value={formData.item10}
+//                         onChange={handleChange}
+//                         className="border border-gray-300 rounded px-2 py-1"
+//                     />
+//                 </div>
+//                 <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+//             </form>
+//         </div>
+//     );
+// };
+
+// export default PairForm;
