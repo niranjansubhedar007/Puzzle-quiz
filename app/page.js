@@ -91,7 +91,7 @@ export default function Home() {
         <div className="bg-white p-6 rounded shadow-md">
           {allCorrect ? (
             ((<h2 className="text-lg font-semibold mb-4">Congratulations!</h2>),
-            (<p className="mb-4">All pairs are correct!</p>))
+            (<p className="mb-4">All pairs are correct! Congratulation !!!</p>))
           ) : (
            
             <h2 className="text-lg font-semibold mb-4">
