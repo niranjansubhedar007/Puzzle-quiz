@@ -115,7 +115,7 @@ export default function Home() {
         <div className="p-2  ">
           <form
             onSubmit={handleSubmit}
-            className="space-y-4 absolute inset-0  bg-purple-300   h-fit lg:mt-5 md:mt-5  mt-16 p-2 w-fit px-8 justify-center items-center text-center flex flex-col  mx-auto"
+            className="space-y-4 absolute inset-0  bg-purple-300   h-fit lg:mt-5 md:mt-5  mt-16 p-2 w-fit lg:px-8 px-3 md:px-7 justify-center items-center text-center flex flex-col  mx-auto"
           >
             <div className="flex flex-col   items-center justify-between">
               <div className="flex items-center justify-between mb-4">
@@ -129,8 +129,8 @@ export default function Home() {
                     isFalseFlags.isFalse1 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center text-white font-semibold">
+                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     1
                   </span>
                 </div>
@@ -168,8 +168,8 @@ export default function Home() {
                     isFalseFlags.isFalse2 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center text-white font-semibold">
+                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     2
                   </span>
                 </div>
@@ -207,8 +207,8 @@ export default function Home() {
                     isFalseFlags.isFalse3 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center text-white font-semibold">
+                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     3
                   </span>
                 </div>
@@ -246,8 +246,8 @@ export default function Home() {
                     isFalseFlags.isFalse4 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center text-white font-semibold">
+                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     4
                   </span>
                 </div>
@@ -285,8 +285,8 @@ export default function Home() {
                     isFalseFlags.isFalse5 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center text-white font-semibold">
+                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     5
                   </span>
                 </div>
