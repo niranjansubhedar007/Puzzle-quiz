@@ -129,7 +129,7 @@ export default function Home() {
                     isFalseFlags.isFalse1 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center lg:mr-5 md:mr-5 mr-1 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     1
                   </span>
@@ -207,7 +207,7 @@ export default function Home() {
                     isFalseFlags.isFalse3 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center lg:mr-5 md:mr-5 mr-3 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     3
                   </span>
