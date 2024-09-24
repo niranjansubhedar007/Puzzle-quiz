@@ -112,10 +112,10 @@ export default function Home() {
             className=" object-cover relative h-full w-full"
           />
         </div>
-        <div className="  ">
+        <div className="p-2  ">
           <form
             onSubmit={handleSubmit}
-            className="space-y-4 absolute inset-0  bg-purple-300   h-fit   mt-10 p-2 w-fit px-8 justify-center items-center text-center flex flex-col  mx-auto"
+            className="space-y-4 absolute inset-0  bg-purple-300   h-fit lg:mt-5 md:mt-5  mt-16 p-2 w-fit px-8 justify-center items-center text-center flex flex-col  mx-auto"
           >
             <div className="flex flex-col   items-center justify-between">
               <div className="flex items-center justify-between mb-4">
