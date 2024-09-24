@@ -129,7 +129,7 @@ export default function Home() {
                     isFalseFlags.isFalse1 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center lg:mr-5 md:mr-5 mr-1 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center  lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
                     1
                   </span>
@@ -137,7 +137,7 @@ export default function Home() {
                 <img
                   src={`/images/catbgremove.png`}
                   alt="cat"
-                  className="w-24 h-auto mr-8"
+                  className="w-24 h-auto mr-8 lg:ml-4 md:ml-4"
                 />
                 <input
                   type="text"
@@ -168,7 +168,7 @@ export default function Home() {
                     isFalseFlags.isFalse2 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center  lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     2
                   </span>
@@ -176,7 +176,7 @@ export default function Home() {
                 <img
                   src={`/images/lionbgremove.png`}
                   alt="lion"
-                  className="w-24 h-auto mr-8"
+                  className="w-24 h-auto mr-8 lg:ml-4 md:ml-4"
                 />
                 <input
                   type="text"
@@ -207,7 +207,7 @@ export default function Home() {
                     isFalseFlags.isFalse3 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center lg:mr-5 md:mr-5 mr-3 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center  lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     3
                   </span>
@@ -215,7 +215,7 @@ export default function Home() {
                 <img
                   src={`/images/elephantbgremove.png`}
                   alt="elephant"
-                  className="w-24 h-auto mr-8"
+                  className="w-24 h-auto mr-8 lg:ml-4 md:ml-4"
                 />
                 <input
                   type="text"
@@ -246,7 +246,7 @@ export default function Home() {
                     isFalseFlags.isFalse4 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center  lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     4
                   </span>
@@ -254,7 +254,7 @@ export default function Home() {
                 <img
                   src={`/images/crowbgremove.png`}
                   alt="crow"
-                  className="w-24 h-auto mr-8"
+                  className="w-24 h-auto mr-8 lg:ml-4 md:ml-4"
                 />
                 <input
                   type="text"
@@ -285,7 +285,7 @@ export default function Home() {
                     isFalseFlags.isFalse5 ? "bg-red-200" : ""
                   }`}
                 />
-                <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
+                <div className="w-10 h-10 flex justify-center  lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
                   <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     5
                   </span>
@@ -293,7 +293,7 @@ export default function Home() {
                 <img
                   src={`/images/dogbgremove.png`}
                   alt="dog"
-                  className="w-24 h-auto mr-8"
+                  className="w-24 h-auto mr-8 lg:ml-4 md:ml-4"
                 />
                 <input
                   type="text"
