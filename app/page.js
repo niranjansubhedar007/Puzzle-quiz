@@ -169,7 +169,7 @@ export default function Home() {
                   }`}
                 />
                 <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     2
                   </span>
                 </div>
@@ -208,7 +208,7 @@ export default function Home() {
                   }`}
                 />
                 <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
-                <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     3
                   </span>
                 </div>
@@ -247,7 +247,7 @@ export default function Home() {
                   }`}
                 />
                 <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
-                <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     4
                   </span>
                 </div>
@@ -286,7 +286,7 @@ export default function Home() {
                   }`}
                 />
                 <div className="w-10 h-10 flex justify-center mr-5 lg:bg-purple-400 md:bg-purple-400 rounded-full items-center text-center">
-                  <span className=" text-center lg:text-white md:text-white text-purple-600  font-semibold">
+                  <span className=" text-center lg:text-white md:text-white text-purple-600 font-semibold">
                     5
                   </span>
                 </div>
